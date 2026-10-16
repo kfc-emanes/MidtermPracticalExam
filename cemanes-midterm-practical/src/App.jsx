@@ -1,9 +1,9 @@
 import TaskCounter from './components/TaskCounter';
 import LiveSearchAndTimer from './components/LiveSearchAndTimer';
-import FormToolkit from './components/FormToolKit';
-import PreferencesApp from './components/PreferencesPanel';
-import ProductExplorer from './components/ProductExplorer';
-import IssueTracker from './components/IssueTracker';
+// import FormToolkit from './components/FormToolKit';
+// import PreferencesApp from './components/PreferencesPanel';
+// import ProductExplorer from './components/ProductExplorer';
+// import IssueTracker from './components/IssueTracker';
 
 export default function App() {
   return (
@@ -11,10 +11,10 @@ export default function App() {
       <h1>React Practical Midterm Exam</h1>
       <TaskCounter />
       <LiveSearchAndTimer />
-      <FormToolkit />
+      {/* <FormToolkit />
       <PreferencesApp />
       <ProductExplorer />
-      <IssueTracker />
+      <IssueTracker /> */}
     </div>
   );
 }

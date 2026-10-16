@@ -24,8 +24,8 @@ export default function TaskCounter() {
 
     const handlePlusTwo = () => {
         if (count < target) {
-            setCount(prev + 1 <= target ? prev + 1 : target);
-            setCount(prev + 1 <= target ? prev + 1 : target);
+            setCount(prev => prev + 1 <= target ? prev + 1 : target);
+            setCount(prev => prev + 1 <= target ? prev + 1 : target);
         }
     };
 
